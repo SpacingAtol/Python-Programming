@@ -1,7 +1,9 @@
+"""
 #print("What's your name? ") we don't ask user to input sth in print function.
 name = input("What's your name? ")
 
 """
+'''
 print("hello,", name) #with "," we can use multiple arguements
 
 #which is better? + or , ? concanetting*
@@ -15,7 +17,9 @@ print("hello,", name) #with "," we can use multiple arguements
 name = input("What's your name? ")
 
 print("hello,", end=" ")
-print(name)
+print(name)'
+
+'''
 
 #bugs is a mistake in a program.
 
@@ -27,12 +31,13 @@ name= name.casefold() #casefold is a function that converts the string to lowerc
 name= name.center(10) #center is a function that centers the string in the middle of the specified width
 name = name.count("z") #count is a function that counts the number of occurrences of a substring in a string
 
-"""first, last = name.split(" ") #split is a function that splits the string into a list of words
+"""
+"""
+first, last = name.split(" ") #split is a function that splits the string into a list of words
 
-print(f"Hello, {first}") #f is format str """
+print(f"Hello, {first}") #f is format str 
 
 print(f"Hello, {name}")
 
-
-
+"""
 
